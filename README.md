@@ -4,7 +4,7 @@
 
 ### 1. Clone the repository:
 ```sh
-git clone https://github.com/yourusername/event-ticket-booking.git
+git clone https://github.com/abdulsamad245/event-ticket-booking.git
 cd event-ticket-booking
 ```
 
