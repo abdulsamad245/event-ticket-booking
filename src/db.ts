@@ -1,26 +1,9 @@
-// import knex from "knex";
-// const config = require("../knexfile");
+import knex from "knex";
+const config = require("../knexfile");
 
-// const db = knex(config.development);
+const db = knex(config.development);
 
-// console.log(config.development);
-
-import knex from "knex"
-import dotenv from "dotenv"
-
-dotenv.config()
-
-const db = knex({
-  client: "pg",
-  connection: process.env.DATABASE_URL,
-  pool: {
-    min: 2,
-    max: 20,
-  },
-})
-
-// export default db
-
+console.log(config.development);
 
 
 // Test if the connection was successful
