@@ -1,4 +1,4 @@
-```markdown
+```
 # Event Ticket Booking System
 
 ## Setup and Running Instructions
