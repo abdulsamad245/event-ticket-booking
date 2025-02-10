@@ -1,4 +1,3 @@
-```
 # Event Ticket Booking System
 
 ## Setup and Running Instructions
@@ -148,7 +147,3 @@ The API is documented using Swagger UI, making it easier to explore and test end
 - Implement **user authentication** for booking and cancellation operations.
 - Ensure sensitive data (e.g., database credentials) is **never exposed** in the repository.
 
----
-
-```
-! 🚀
