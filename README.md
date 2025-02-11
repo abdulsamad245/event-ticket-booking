@@ -139,11 +139,5 @@ The API is documented using Swagger UI, making it easier to explore and test end
 - Clear endpoint descriptions and request/response schemas.
 - Authentication details included for protected routes.
 
----
 
-## Security Considerations
-
-- Use **HTTPS** in production to secure API communications.
-- Implement **user authentication** for booking and cancellation operations.
-- Ensure sensitive data (e.g., database credentials) is **never exposed** in the repository.
 

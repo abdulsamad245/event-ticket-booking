@@ -1,10 +1,15 @@
 import knex from "knex";
+import dotenv from "dotenv";
+
+dotenv.config();
+
 const config = require("../knexfile");
 
-const db = knex(config.development);
+const environment = process.env.ENVIRONMENT || "development";
 
-console.log(config.development);
+const db = knex(config[environment]);
 
+console.log(config[environment]);
 
 // Test if the connection was successful
 db.raw("SELECT 1")
